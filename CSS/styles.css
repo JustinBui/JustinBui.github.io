@@ -1,0 +1,37 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;1,300&display=swap"); */
+
+body {
+    background: rgb(12, 12, 12);
+}
+
+p,
+h1,
+h2,
+h3,
+li {
+  color: white;
+}
+
+.nav-item {
+  justify-content: end;
+}
+
+.first-div {
+  height: 100vh;
+  background-color: red;
+  width: 100%;    
+}
+
+
+.second-div {
+  height: 100vh;
+  background-color: yellowgreen;
+  width: 100%;
+}
+
+.third-div {
+  height: 100vh;
+  background-color: blueviolet;
+  width: 100%;
+}
+
