@@ -11,7 +11,7 @@ html, body {
 }
 
 h1 {
-  padding-top: 80px;
+  text-align: center;
 }
 
 
@@ -24,15 +24,21 @@ li {
 }
 
 section {
-  height: 100vh;
   width: 100%;
 }
+
+@media screen and (min-width: 1200px) {
+  section {
+    height: 100%
+  }
+}
+
 
 /*******************
   LANDING PAGE
 *******************/
 
-.landing-div {
+.landing-page {
   background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,05)), url(../Images/buildings.jpg);
   background-position: center;
   background-size: cover;
@@ -46,29 +52,47 @@ section {
   display: block;
   width: 100px;
   height: 2.3px;
-  background-color: rgba(255, 115, 1, 0.438);
+  background-color: rgba(128, 0, 128, 0.61);
   margin-bottom: 3px;
 }
 
+/*******************
+  SKILLS PAGE
+*******************/
 
-
-
-
-
-
-
-
-
-
-.second-div {
-  height: 100vh;
-  background-color: yellowgreen;
-  width: 100%;
+.skills-page {
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,05)), url(../Images/darkbackground.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-color: black;
+  overflow-x: hidden;
+}
+.card {
+  color: white;
+  text-align: center;
+  background-color: rgba(7, 7, 7, 0.411);
+  margin: 10px;
+  overflow-x: None;
+  border: solid 3px purple;
 }
 
-.third-div {
+.skill-icon {
+  height: 45px;
+  width: 45px;
+  background-color: rgba(255, 255, 255, 0.897);
+}
+
+.skill-item {
+  /* list-style-type: none; */
+  margin: 0;
+  padding: 0;
+}
+
+.projects-page {
   height: 100vh;
-  background-color: blueviolet;
+  border: solid 2px purple;
   width: 100%;
+  /* background-color: rgb(88, 83, 83); */
 }
 
