@@ -7,7 +7,7 @@ html, body {
 	height: 100%;
 	width: 100%;
   font-family: "Nunito", sans-serif;
-  background: rgb(2, 2, 2);
+  background: rgb(3, 3, 3);
 }
 
 h1 {
@@ -54,7 +54,7 @@ hr {
   display: block;
   width: 100px;
   height: 2.3px;
-  background-color: rgba(128, 0, 128, 0.61);
+  background-color: rgba(128, 0, 128, 0.87);
   margin-bottom: 3px;
 }
 
@@ -63,7 +63,7 @@ hr {
 *******************/
 
 .skills-page {
-  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,05)), url(../Images/darkbackground.jpg);
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,05)), url(../Images/geometric-shapes.jpg);
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -80,7 +80,8 @@ hr {
 .skill-icon {
   height: 45px;
   width: 45px;
-  background-color: rgba(255, 255, 255, 0.897);
+  background-color: rgba(255, 255, 255, 0.733);
+  border: 2px solid purple;
 }
 
 .skill-item {
@@ -108,11 +109,31 @@ hr {
   EXPERIENCE PAGE
 *******************/
 
-.skills-page {
-  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,05)), url(../Images/darkbackground.jpg);
+.experience-page {
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,05)), url(/Images/black-leaves.jpg);
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
   background-color: black;
   overflow-x: hidden;
 }
+
+.experience-card {
+  background-color: black;
+}
+
+
+/*******************
+  CONTACT NAVBAR
+*******************/
+
+/* .contact-icon {
+  height: 35px;
+  width: 35px;
+  background-color: rgba(252, 5, 252, 0.507);
+  padding: 3px;
+}
+
+.contact-text {
+  margin: 1px;
+} */
