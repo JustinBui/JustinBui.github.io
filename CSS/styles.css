@@ -33,7 +33,9 @@ section {
   }
 }
 
-
+hr {
+  color: purple;
+}
 /*******************
   LANDING PAGE
 *******************/
@@ -68,13 +70,11 @@ section {
   background-color: black;
   overflow-x: hidden;
 }
-.card {
-  color: white;
+.skill-category {
   text-align: center;
-  background-color: rgba(7, 7, 7, 0.411);
+  background-color: rgba(7, 7, 7, 0.849);
   margin: 10px;
-  overflow-x: None;
-  border: solid 3px purple;
+  border: solid 2px purple;
 }
 
 .skill-icon {
@@ -89,10 +89,30 @@ section {
   padding: 0;
 }
 
-.projects-page {
-  height: 100vh;
-  border: solid 2px purple;
-  width: 100%;
-  /* background-color: rgb(88, 83, 83); */
+.card {
+  color: white;
 }
 
+/*******************
+  PROJECTS PAGE
+*******************/
+.projects-page {
+  overflow-x: hidden;
+}
+
+.project-card {
+  margin: 30px;
+}
+
+/*******************
+  EXPERIENCE PAGE
+*******************/
+
+.skills-page {
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,05)), url(../Images/darkbackground.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-color: black;
+  overflow-x: hidden;
+}

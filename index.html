@@ -27,23 +27,22 @@
             <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
                 <a class="navbar-brand">JUSTIN BUI</a>
                 <ul class="navbar-nav ms-auto">
-                    <p class="nav-item lead mx-5">
+                    <li class="nav-item lead mx-5">
                         <a class="nav-link" aria-current="page" href="#">Home</a>
-                    </p>
-                    <p class="nav-item lead mx-5">
+                    </li>
+                    <li class="nav-item lead mx-5">
                         <a class="nav-link" aria-current="page" href="#">About</a>
-                    </p>
-                    <p class="nav-item lead mx-5">
+                    </li>
+                    <li class="nav-item lead mx-5">
                         <a class="nav-link" aria-current="page" href="#">Skills</a>
-                    </p>
-                    <p class="nav-item lead mx-5">
+                    </li>
+                    <li class="nav-item lead mx-5">
                         <a class="nav-link" aria-current="page" href="#">Projects</a>
-                    </p>
-                    <p class="nav-item lead mx-5">
+                    </li>
+                    <li class="nav-item lead mx-5">
                         <a class="nav-link" aria-current="page" href="#">Experience</a>
-                    </p>
+                    </li>
                 </ul>
-
             </div>
         </div>
     </nav>
@@ -89,9 +88,9 @@
     <section class="skills-page" id="skills">
         <h1 class="display-1 mb-5 mt-5">SKILLS</h1>
         <div class="row justify-content-center">
-            <div class="card col-lg-4 p-4" style="width: 18rem;">
+            <div class="skill-category card col-lg-4 p-4" style="width: 18rem;">
                 <div class="card-body">
-                    <h5 class="card-title">General Languages</h5>
+                    <h5 class="card-title"><strong>General Languages</strong></h5>
                     <img src="Images/cpu.svg" alt="CPU-icon" class="skill-icon rounded">
                     <hr>
                     </hr>
@@ -101,9 +100,9 @@
                 </div>
             </div>
 
-            <div class="card col-lg-4 p-4" style="width: 18rem;">
+            <div class="skill-category card col-lg-4 p-4" style="width: 18rem;">
                 <div class="card-body">
-                    <h5 class="card-title">Front End</h5>
+                    <h5 class="card-title"><strong>Front End</strong></h5>
                     <img src="Images/palette.svg" alt="CPU-icon" class="skill-icon rounded">
                     <hr>
                     </hr>
@@ -113,9 +112,9 @@
                 </div>
             </div>
 
-            <div class="card col-lg-4 p-4" style="width: 18rem;">
+            <div class="skill-category card col-lg-4 p-4" style="width: 18rem;">
                 <div class="card-body">
-                    <h5 class="card-title">Libraries/Frameworks</h5>
+                    <h5 class="card-title"><strong>Libraries/Frameworks</strong></h5>
                     <img src="Images/diagram-2.svg" alt="CPU-icon" class="skill-icon rounded">
                     <hr>
                     </hr>
@@ -125,9 +124,9 @@
                 </div>
             </div>
 
-            <div class="card col-lg-4 p-4" style="width: 18rem;">
+            <div class="skill-category card col-lg-4 p-4" style="width: 18rem;">
                 <div class="card-body">
-                    <h5 class="card-title">Operating Systems</h5>
+                    <h5 class="card-title"><strong>Operating Systems</strong></h5>
                     <img src="Images/terminal.svg" alt="CPU-icon" class="skill-icon rounded">
                     <hr>
                     </hr>
@@ -139,53 +138,61 @@
     </section>
 
     <!--------------- PROJECTS --------------->
-    <section ction class="projects-page">
+    <section class="projects-page">
         <h1 class="display-1 mb-5 mt-5">PROJECTS</h1>
-        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
-                    aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-                    aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
-                    aria-label="Slide 3"></button>
-            </div>
-            <div class="carousel-inner" style="height: 600px; border: solid 2px red;">
-                <div class="carousel-item active">
-                    <img src="..." class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>First slide label</h5>
-                        <p>Some representative placeholder content for the first slide.</p>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img src="..." class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>Second slide label</h5>
-                        <p>Some representative placeholder content for the second slide.</p>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img src="..." class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>Third slide label</h5>
-                        <p>Some representative placeholder content for the third slide.</p>
-                    </div>
+        <div class="row justify-content-center">
+
+            <div class="card project-card" style="width: 18rem; background-color: black;">
+                <img src="Images/CS-Student.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title"><strong>Project Title</strong></h5>
+                    <h6 class="card-subtitle mb-2 text-muted">Month/Year - Month/Year</h6>
+                    <hr>
+                    </hr>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                        ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <a class="source-code" href="https://github.com/BuiTheBoi/cs-bs"><button type="button"
+                            class="btn btn-outline-light">Link</button></a>
                 </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
-                data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
-                data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
+            <div class="card project-card" style="width: 18rem; background-color: black;">
+                <img src="Images/plants2.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title"><strong>Project Title</strong></h5>
+                    <h6 class="card-subtitle mb-2 text-muted">Month/Year - Month/Year</h6>
+                    <hr>
+                    </hr>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                        ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <a class="source-code" href="https://github.com/BuiTheBoi/Zeta-Pledge-Project"><button type="button"
+                            class="btn btn-outline-light">Link</button></a>
+                </div>
+            </div>
+            <div class="card project-card" style="width: 18rem; background-color: black;">
+                <img src="Images/rock-paper-scissors.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title"><strong>Project Title</strong></h5>
+                    <h6 class="card-subtitle mb-2 text-muted">Month/Year - Month/Year</h6>
+                    <hr>
+                    </hr>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                        ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <a class="source-code" href="https://github.com/BuiTheBoi/Rock-Paper-Scissors"><button type="button"
+                            class="btn btn-outline-light">Link</button></a>
+                </div>
+            </div>
+
+
         </div>
     </section>
 
+    <!--------------- EXPERIENCE --------------->
+    <section class="experience-page">
+        <h1 class="display-1 mb-5 mt-5">EXPERIENCE</h1>
+    </section>
 </body>
 
 </html>
