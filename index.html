@@ -7,13 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Justin Bui's Portfolio (BETA)</title>
 
-    <!-- <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css"> -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
     <link rel="stylesheet" href="CSS/styles.css" />
     <link rel="shortcut icon" type="image/png" href="Images/favicon-hexagon.png" />
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <script src="Scripts/navs.js"></script>
 
 </head>
 
@@ -29,19 +27,19 @@
                 <a class="navbar-brand">JUSTIN BUI</a>
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item lead mx-5">
-                        <a class="nav-link" aria-current="page" href="#">Home</a>
+                        <a class="nav-link" aria-current="page" href="#landing">Home</a>
                     </li>
                     <li class="nav-item lead mx-5">
-                        <a class="nav-link" aria-current="page" href="#">About</a>
+                        <a class="nav-link" aria-current="page" href="#about">About</a>
                     </li>
                     <li class="nav-item lead mx-5">
-                        <a class="nav-link" aria-current="page" href="#">Skills</a>
+                        <a class="nav-link" aria-current="page" href="#skills">Skills</a>
                     </li>
                     <li class="nav-item lead mx-5">
-                        <a class="nav-link" aria-current="page" href="#">Projects</a>
+                        <a class="nav-link" aria-current="page" href="#projects">Projects</a>
                     </li>
                     <li class="nav-item lead mx-5">
-                        <a class="nav-link" aria-current="page" href="#">Experience</a>
+                        <a class="nav-link" aria-current="page" href="#experience">Experience</a>
                     </li>
                 </ul>
             </div>
@@ -56,21 +54,27 @@
             <div class="dash mx-auto"></div>
             <p class="lead text-center">Welcome to my professional portfolio</p>
             <div class="row justify-content-center">
-                <div class="row">
-                    <button type="button" class="btn btn-outline-light">Contact Me Below!</button>
-                </div>
+
+                <a class="scroll-to-contacts" href="#contacts" style="text-decoration: none;">
+                    <div class="d-grid gap-2">
+                        <button type="button" class="btn btn-outline-light" id="btnScrollToBottom">
+                            Contact Me Below!
+                        </button>
+                    </div>
+
+                </a>
             </div>
         </div>
     </section>
 
     <!--------------- ABOUT --------------->
-    <section class="container-fluid about-page" id="about">
+    <section class="about-page" id="about">
         <h1 class="display-1 mb-5 mt-5">ABOUT</h1>
         <div class="row justify-content-center">
             <div class="about-col col-xl-5 col-lg-12 mb-5">
                 <img src=" Images/justin-bui-professional.jpg" class="justin-img img-fluid rounded">
             </div>
-            <div class="about-col col-xl-5 col-lg-12 mb-5">
+            <div class="about-col col-xl-5 col-lg-12">
                 <p>Hello!</p>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
@@ -221,7 +225,8 @@
                     <h6 class="card-subtitle mb-2 text-muted">Month/Year - Month/Year</h6>
                     <hr>
                     </hr>
-                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                        tempor
                         incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
                         ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
                         in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
@@ -237,7 +242,7 @@
     <footer class="contacts-page" id="contacts">
         <h3 class="text-center p-3">Contact</h3>
         <div class="row justify-content-center mt-5 p-2">
-            <div class="col-md-3">Lorem ipsum dolor sit amet, consectetur
+            <div class="col-md-3 mb-5">Lorem ipsum dolor sit amet, consectetur
                 adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
             <div class="col-md-3">
                 <div class="gmail">

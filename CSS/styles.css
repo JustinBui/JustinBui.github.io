@@ -43,7 +43,9 @@ footer {
   background-color: black;
 }
 
-
+section {
+  overflow-x: hidden;
+}
 
 /*******************
   LANDING PAGE
@@ -77,7 +79,6 @@ footer {
   background-size: cover;
   background-attachment: fixed;
   background-color: black;
-  overflow-x: hidden;
 }
 .skill-category {
   text-align: center;
@@ -106,9 +107,7 @@ footer {
 /*******************
   PROJECTS PAGE
 *******************/
-.projects-page {
-  overflow-x: hidden;
-}
+
 
 .project-card {
   margin: 30px;
@@ -124,7 +123,6 @@ footer {
   background-size: cover;
   background-attachment: fixed;
   background-color: black;
-  overflow-x: hidden;
 }
 
 .experience-card {
@@ -133,7 +131,7 @@ footer {
 
 
 /*******************
-  CONTACT NAVBAR
+  CONTACT PAGE
 *******************/
 .contacts-page {
   background-color: black;
@@ -145,7 +143,6 @@ footer {
   height: 30px;
   width: 30px;
 }
-
 
 .gmail, .phone, .location, .other-links {
   display: flex;
