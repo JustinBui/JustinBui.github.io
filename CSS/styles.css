@@ -7,7 +7,7 @@ html, body {
 	height: 100%;
 	width: 100%;
   font-family: "Nunito", sans-serif;
-  background: rgb(3, 3, 3);
+  background: rgb(4, 4, 4);
 }
 
 h1 {
@@ -36,6 +36,15 @@ section {
 hr {
   color: purple;
 }
+
+footer {
+  color: white;
+  padding: 40px;
+  background-color: black;
+}
+
+
+
 /*******************
   LANDING PAGE
 *******************/
@@ -126,14 +135,33 @@ hr {
 /*******************
   CONTACT NAVBAR
 *******************/
-
-/* .contact-icon {
-  height: 35px;
-  width: 35px;
-  background-color: rgba(252, 5, 252, 0.507);
-  padding: 3px;
+.contacts-page {
+  background-color: black;
+  overflow-x: hidden;
+  color: white;
 }
 
-.contact-text {
-  margin: 1px;
-} */
+.contact-icon {
+  height: 30px;
+  width: 30px;
+}
+
+
+.gmail, .phone, .location, .other-links {
+  display: flex;
+}
+
+.linkedin-icon, .github-icon {
+  display: inline-block;
+  transition: 0.3s;
+  position: absolute;
+}
+
+.linkedin-icon:hover, .github-icon:hover {
+  height: 37px;
+  width: 37px;
+}
+
+.copyright-div {
+  background-color: black;
+}
