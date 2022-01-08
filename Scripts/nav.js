@@ -1,4 +1,4 @@
-// // Clicking navbar buttons to scroll to specific sections of website
+// Clicking navbar buttons to scroll to specific sections of website
 // $(".nav-item").on("click", function (e) {
 //     if (this.hash !== "") {
 //         e.preventDefault(); // Preventing the default behavior when clicking buttons
