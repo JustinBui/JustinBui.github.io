@@ -3,9 +3,10 @@
 /*******************
   GLOBAL EDITS
 *******************/
-html, body {
-	height: 100%;
-	width: 100%;
+html,
+body {
+  height: 100%;
+  width: 100%;
   font-family: "Nunito", sans-serif;
   background: rgb(4, 4, 4);
 }
@@ -48,7 +49,7 @@ section {
 }
 
 .purple-bui {
-  color:purple;
+  color: purple;
 }
 
 /*******************
@@ -56,7 +57,7 @@ section {
 *******************/
 
 .landing-page {
-  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,05)), url(../Images/buildings.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 05)), url(../Images/buildings.jpg);
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -78,12 +79,13 @@ section {
 *******************/
 
 .skills-page {
-  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,05)), url(../Images/geometric-shapes.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 05)), url(../Images/geometric-shapes.jpg);
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
   background-color: black;
 }
+
 .skill-category {
   text-align: center;
   background-color: rgba(7, 7, 7, 0.849);
@@ -122,7 +124,7 @@ section {
 *******************/
 
 .experience-page {
-  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,05)), url(/Images/black-leaves.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 05)), url(/Images/black-leaves.jpg);
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -148,17 +150,22 @@ section {
   width: 30px;
 }
 
-.gmail, .phone, .location, .other-links {
+.gmail,
+.phone,
+.location,
+.other-links {
   display: flex;
 }
 
-.linkedin-icon, .github-icon {
+.linkedin-icon,
+.github-icon {
   display: inline-block;
   transition: 0.3s;
   position: absolute;
 }
 
-.linkedin-icon:hover, .github-icon:hover {
+.linkedin-icon:hover,
+.github-icon:hover {
   height: 37px;
   width: 37px;
 }
