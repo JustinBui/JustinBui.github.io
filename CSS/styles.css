@@ -20,6 +20,7 @@ p,
 h1,
 h2,
 h3,
+h5,
 li {
   color: white;
 }
@@ -112,8 +113,6 @@ section {
 .skill-icon {
   height: 45px;
   width: 45px;
-  /* background-color: rgba(255, 255, 255, 0.733); */
-  /* border: 2px solid orange; */
 }
 
 
@@ -183,21 +182,6 @@ ul.cloud a {
   opacity: calc((15 - (9 - var(--size))) / 15); 
   /* ... */
 }
-
-
-/* ul.languages-cloud a {
-  color: rgb(255, 77, 0);
-}
-
-ul.webdev-cloud a {
-  color: rgb(255, 0, 179);
-}
-
-ul.ml-cloud a {
-  color: rgb(0, 255, 242);
-} */
-
-
 
 /**********************************************************/
 
