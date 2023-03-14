@@ -90,25 +90,116 @@ section {
   text-align: center;
   background-color: rgba(7, 7, 7, 0.849);
   margin: 10px;
-  border: solid 2px purple;
+}
+
+/* Borders of each card */
+.languages-card {
+  border: solid 2px rgb(255, 77, 0);
+}
+
+.webdev-card {
+  border: solid 2px rgb(255, 0, 179);
+}
+
+.ml-card {
+  border: solid 2px rgb(0, 255, 242);
+}
+
+.other-techs-card {
+  border: solid 2px rgb(255, 238, 0);
 }
 
 .skill-icon {
   height: 45px;
   width: 45px;
-  background-color: rgba(255, 255, 255, 0.733);
-  border: 2px solid purple;
+  /* background-color: rgba(255, 255, 255, 0.733); */
+  /* border: 2px solid orange; */
 }
 
-.skill-item {
-  /* list-style-type: none; */
-  margin: 0;
-  padding: 0;
+
+.languages-card, ul.languages-cloud a {
+  color: rgb(255, 77, 0);
 }
 
-.card {
-  color: white;
+.webdev-card, ul.webdev-cloud a {
+  color:rgb(255, 0, 179);
 }
+
+.ml-card, ul.ml-cloud a {
+  color: rgb(0, 255, 242);
+}
+
+.other-techs-card, ul.other-techs-cloud a {
+  color:rgb(255, 238, 0)
+}
+
+/********************************TAG CLOUD**************************/
+ul.cloud {
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  line-height: 2.5rem;
+}
+
+ul.cloud a {
+  display: block;
+  font-size: 1.5rem;
+  padding: 0.125rem 0.25rem;
+  text-decoration: none;
+  position: relative;
+}
+
+ul.cloud a {
+  --size: attr(data-weight number, 2); 
+  font-size: calc(var(--size) * 1rem);
+}
+
+ul.cloud a[data-weight="1"] { --size: 1; }
+ul.cloud a[data-weight="2"] { --size: 2; }
+ul.cloud a[data-weight="3"] { --size: 3; }
+ul.cloud a[data-weight="4"] { --size: 4; }
+ul.cloud a[data-weight="5"] { --size: 5; }
+ul.cloud a[data-weight="6"] { --size: 6; }
+ul.cloud a[data-weight="7"] { --size: 7; }
+ul.cloud a[data-weight="8"] { --size: 8; }
+ul.cloud a[data-weight="9"] { --size: 9; }
+
+
+ul.cloud a {
+  --size: 4;
+  font-size: calc(var(--size) * 0.25rem + 0.5rem);
+  /* ... */
+}
+
+ul.cloud[data-show-value] a::after {
+  content: " (" attr(data-weight) ")";
+  font-size: 1rem;
+}
+
+ul.cloud a {
+  opacity: calc((15 - (9 - var(--size))) / 15); 
+  /* ... */
+}
+
+
+/* ul.languages-cloud a {
+  color: rgb(255, 77, 0);
+}
+
+ul.webdev-cloud a {
+  color: rgb(255, 0, 179);
+}
+
+ul.ml-cloud a {
+  color: rgb(0, 255, 242);
+} */
+
+
+
+/**********************************************************/
 
 /*******************
   PROJECTS PAGE
