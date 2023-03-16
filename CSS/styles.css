@@ -180,7 +180,6 @@ ul.cloud[data-show-value] a::after {
 
 ul.cloud a {
   opacity: calc((15 - (9 - var(--size))) / 15); 
-  /* ... */
 }
 
 /**********************************************************/
